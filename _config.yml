@@ -23,6 +23,7 @@ twitter_username: k_baranski
 github_username: kbaransk
 minimal_mistakes_skin: default
 search: true
+safe: true
 
 # Build settings
 markdown: kramdown
@@ -35,6 +36,10 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+
+exclude:
+  - rundocker.sh
+  - README.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -57,6 +62,15 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-data
+
 author:
   name   : "Krzysztof Baranski"
   avatar : "/assets/images/bio-photo.png"
@@ -65,27 +79,33 @@ author:
     - label: "Homepage"
       icon: "fas fa-fw fa-link"
       url: "https://kbaranski.pl"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "http://pl.linkedin.com/in/kbaranski"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ik_baranski"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kbaransk"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/"
+    - label: "BitBucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: "https://bitbucket.org/kbaransk"
 
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "http://pl.linkedin.com/in/kbaranski"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/ik_baranski"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/"
+      url: "https://github.com/kbaransk"
+    - label: "BitBucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: "https://bitbucket.org/kbaransk"
 
 defaults:
   # _posts
