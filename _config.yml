@@ -76,7 +76,7 @@ whitelist:
 author:
   name   : "Krzysztof Baranski"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Java developer since J2EE 1.4 and Java SE 5 times"
+  bio    : "Software developer for the last over 15 years. Nowadays I mostly use Java, Kotlin and Spring Boot, but also bash, JavaScript, C# when needed as well as C++ when there is no other option."
   links:
     - label: "Homepage"
       icon: "fas fa-fw fa-link"
@@ -86,13 +86,16 @@ author:
       url: "http://pl.linkedin.com/in/kbaranski"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ik_baranski"
+      url: "https://twitter.com/k_baranski"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kbaransk"
     - label: "BitBucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.org/kbaransk"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/baranski.krzysiek"
 
 footer:
   links:
@@ -101,13 +104,16 @@ footer:
       url: "http://pl.linkedin.com/in/kbaranski"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ik_baranski"
+      url: "https://twitter.com/k_baranski"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kbaransk"
     - label: "BitBucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.org/kbaransk"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/baranski.krzysiek"
 
 defaults:
   # _posts
