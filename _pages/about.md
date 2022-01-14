@@ -14,7 +14,9 @@ Recently I work for [Infobip](//infobip.com), where I make and maintain microser
 
 Besides Java and Kotlin, I was also programming in Groovy, Scala, PHP and tracking some bugs or doing optimizations in C++ app.
 
-Fun facts:
+---
+
+Fun facts from my beginnings:
 - I started with writing embedded C code for AVR ATmega processors
 - When I started my Enterprise Java journey, J2EE 1.4 was still a think. That was strange beast where you were mostly "programming" in Javadoc comments and XML
 - Thing that I found most ridiculous was migrating module of application from EJB 3 to EJB 2.1 (well... it was politics not technical issues)
